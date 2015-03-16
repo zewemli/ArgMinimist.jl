@@ -38,8 +38,7 @@ end
 Argu-magic?
 ------------------
 
-Positional arguments are returned in a Vector{Any}, keyword arguments are in a Dict{Symbol,Any}.
-If a value looks like an integer, you get an integer. If it looks like a float you get a float. Otherwise you get a string.
+Positional arguments are returned in a <code>Vector{Any}</code>, keyword arguments are in a <code>Dict{Symbol,Any}</code>. If a value looks like an integer, you get an integer. If it looks like a float you get a float. Otherwise you get a string.
 
 Argument behaviors:
 
@@ -54,5 +53,5 @@ All other arguments get dumped into the positional argument array.
 Got Defaults?
 ------------------
 
-Calling parse_args! or parse_named_args! with a Dict{Symbol,Any} as the last argument will
-put keyword arguments into the provided dictionary.
+Calling <code>parse_args!</code> or <code>parse_named_args!</code> with a <code>Dict{Symbol,Any}</code>
+as the last argument will put keyword arguments into the provided dictionary.
