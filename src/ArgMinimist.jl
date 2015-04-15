@@ -1,6 +1,6 @@
 module ArgMinimist
 
-export parse_args, parse_named_args
+export parse_args, parse_args!, parse_named_args, parse_named_args!
 
 intRegex = r"^\d+$"
 floatRegex = r"^\d*\.\d+$"
